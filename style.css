@@ -884,7 +884,7 @@
   padding: 21px 200px;
   background-color: rgba(225, 225, 225, 0.75);
   text-align: center;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 
 @media screen and (max-width: 391px) {
