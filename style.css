@@ -1,69 +1,67 @@
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 @font-face {
+  src: url(fonts/ExtraBold_Montserrat.ttf);
   font-family: Montserrat_ExtraBold;
-  src: url(../MY_PRACTICAL/fonts/ExtraBold_Montserrat.ttf);
 }
 @font-face {
+  src: url(fonts/Bold_Montserrat.ttf);
   font-family: Montserrat_Bold;
-  src: url(../MY_PRACTICAL/fonts/Bold_Montserrat.ttf);
 }
 @font-face {
+  src: url(fonts/Medium_Montserrat.ttf);
   font-family: Montserrat_Medium;
-  src: url(../MY_PRACTICAL/fonts/Medium_Montserrat.ttf);
 }
 @font-face {
+  src: url(fonts/Light_Montserrat.ttf);
   font-family: Montserrat_Light;
-  src: url(../MY_PRACTICAL/fonts/Light_Montserrat.ttf);
 }
 
 .h1 {
   font-size: 48px;
   font-family: Montserrat_ExtraBold;
-  line-height: 64px;
+  
 }
 
 .h2 {
   font-size: 40px;
-  font-family: Montserrat_ExtraBold;
-  line-height: 54px;
-}
+  font-family: Montserrat_ExtraBold;}
 
 .h3 {
   font-size: 28px;
   font-family: Montserrat_ExtraBold;
-  line-height: 40px;
+  
 }
 
 .h4 {
   font-size: 18px;
   font-family: Montserrat_Medium;
-  line-height: 28px;
+  
 }
 
 .label {
   font-size: 14px;
   font-family: Montserrat_Bold;
-  line-height: 20px;
+  
 }
 
 .body1 {
   font-size: 16px;
   font-family: Montserrat_Light;
-  line-height: 26px;
+  
 }
 
 .body2 {
   font-size: 14px;
   font-family: Montserrat_Light;
-  line-height: 22px;
+  
 }
 
 .container {
-  width: 1120px;
+  width: 1120px ;
   margin: 0 auto;
 }
 
@@ -83,7 +81,7 @@
 
 .nav__ul {
   display: flex;
-  margin-left: 32px;
+  margin-left: 32px ;
   gap: 32px;
   justify-content: space-between;
 }
@@ -148,6 +146,7 @@
 .main_description_p2 {
   margin-top: 32px;
   margin-bottom: 32px;
+  line-height: 28px;
 }
 
 .description__button {
@@ -157,6 +156,7 @@
   border: none;
   border-radius: 8px;
   color: white;
+  cursor: pointer;
 }
 
 .description__button:hover {
@@ -212,7 +212,7 @@
   display: flex;
   background-color: white;
   border: none;
-  border-radius: 32px;
+  border-radius: 30px;
   align-items: center;
   flex-direction: column;
   box-shadow: 0 20px 50px #d0d0d0;
@@ -298,6 +298,7 @@
 .why_card_p2 {
   color: black;
   width: 265px;
+  line-height: 26px;
 }
 
 .main_stat {
@@ -316,7 +317,7 @@
   display: flex;
   position: absolute;
   top: 30%;
-  left: 8%;
+  left: 10%;
   justify-content: space-between;
   align-items: center;
 }
@@ -356,7 +357,7 @@
   display: flex;
   position: absolute;
   top: -10%;
-  left: 13%;
+  left: 15%;
   width: 1120px;
   justify-content: space-between;
   align-items: center;
@@ -494,13 +495,12 @@
 
 .process_card_text {
   margin: 0 auto;
+  margin-top: -170px;
   display: flex;
-  position: absolute;
-  top: 48%;
-  left: 13%;
   text-align: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .process_card_p1 {
@@ -512,6 +512,7 @@
 .process_card_p2 {
   color: black;
   width: 192px;
+  line-height: 26px;
 }
 
 .main_reviews {
@@ -552,12 +553,13 @@
 .reviews_card_inf {
   width: 288px;
   display: flex;
-  position: absolute;
-  top: 9%;
-  left: 19%;
+  margin: 0 auto;
+  margin-top: -450px;
+  margin-left: 80px; 
   text-align: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 120px;
 }
 
 .reviews_img {
@@ -567,6 +569,7 @@
 .reviews_card_inf_p {
   height: 85px;
   margin-bottom: 32px;
+  line-height: 26px;
 }
 
 .main_request {
@@ -688,7 +691,7 @@
   display: flex;
   background-color: white;
   border: none;
-  border-radius: 32px;
+  border-radius: 30px;
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -780,7 +783,7 @@
   margin: 0 auto;
   display: flex;
   position: absolute;
-  top: 19%;
+  top: 20%;
   left: 30%;
   text-align: center;
   align-items: center;
@@ -790,6 +793,7 @@
 .buy_inf_p {
   color: white;
   margin-bottom: 32px;
+  line-height: 28px;
 }
 
 .buy__button {
@@ -816,7 +820,7 @@
   margin: 0 auto;
   display: flex;
   top: 20%;
-  left: 14%;
+  left: 15%;
   align-items: center;
   flex-direction: column;
 }
@@ -825,7 +829,7 @@
   width: 1521px;
   height: 278px;
   display: flex;
-  padding: 0 200px;
+  padding: 0px 200px;
   background-color: #E1E1E180;
   justify-content: space-between;
   align-items: center;
@@ -887,11 +891,13 @@
   box-sizing: border-box;
 }
 
+
+
 @media screen and (max-width: 391px) {
   .container {
     width: 100%;
-    height: auto;
-    padding: 0 10px 0 24px;
+    margin: 0px;
+    padding: 0px 16px;
     box-sizing: border-box;
   }
 
@@ -933,13 +939,15 @@
   .header {
     width: 100%;
     height: auto;
+    margin-top: 14px;
+    gap: 15px;
     align-items: flex-start;
+    flex-direction: column;
   }
 
   .header__menu {
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
     align-items: flex-start;
     flex-direction: column;
   }
@@ -950,8 +958,9 @@
 
   .nav__ul {
     width: 100%;
-    gap: 10px;
+    gap: 16px;
     margin-left: 0px;
+    flex-wrap: wrap;
   }
 
   .header__button {
@@ -961,8 +970,9 @@
   .main_description {
     width: 100%;
     margin-top: 40px;
+    margin-bottom: 60px;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
   }
 
   .main_description_frame {
@@ -981,12 +991,18 @@
   }
 
   .main_description_img {
-    width: 55%;
-    margin-left: 5px;
+    width: 80%;
+    height: auto;
+    margin-left: 0px;
   }
 
   .main_forparty {
-    margin-top: -30px;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .main_process {
+    margin-top: 120px;
   }
 
   .main_p {
@@ -996,8 +1012,40 @@
 
   .forparty__cards_1,
   .forparty__cards_2 {
-    gap: 32px;
+    width: 100%;
+    gap: 50px;
+    margin-left: 0px;
     flex-direction: column;
+  }
+
+  .forparty__card {
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .forparty__card_img {
+    width: 280px;
+    height: 270px;
+    margin-bottom: -50px;
+    position: static;
+    z-index: 2;
+  }
+
+  .forparty__card_inf {
+    width: 100%;
+    height: auto;
+    max-width: 320px;
+    padding: 90px 20px 30px 20px;
+    box-sizing: border-box;
+  }
+
+  .forparty__card_p {
+    margin-top: 0px;
+    margin-bottom: 24px;
   }
 
   .forparty__card_btn {
@@ -1005,63 +1053,78 @@
   }
 
   .main_why {
-    margin-bottom: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 
   .main_why_cards {
+    height: auto;
+    gap: 32px;
     flex-direction: column;
   }
 
-  .why__card {
-    margin-top: 32px;
-  }
-
+  .why__card,
   .why__card2 {
-    margin-top: 32px;
+    width: 100%;
+    height: auto;
+    max-width: 352px;
+    margin-top: 0px;
   }
 
   .why__card_inf {
-    margin-bottom: 32px;
+    margin-top: 0px;
+    padding: 20px;
+  }
+
+  .why_card_p1,
+  .why_card_p2 {
+    width: 100%;
   }
 
   .main_stat {
-    margin-top: 435px;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 80px;
   }
 
   .stat_fon {
     width: 100%;
-    height: 100px;
+    height: 200px;
+    object-fit: cover;
   }
 
   .stat_info {
-    top: 1px;
-    left: 0px;
     width: 100%;
-    text-align: center;
+    top: 50%;
+    left: 50%;
+    gap: 25px;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
   }
 
   .stat_info_t {
-    width: 90%;
+    width: 100%;
     margin-right: 0px;
   }
 
   .main_photo {
-    margin-top: -70px;
-    margin-bottom: 60px;
+    width: 100%;
+    margin: 40px 0px;
   }
 
   .photo_fon {
-    width: 390px;
-    height: 430px;
-    border-radius: 32px;
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    border-radius: 30px;
   }
 
   .photo_inf {
     width: 100%;
-    margin-top: 10px;
-    top: 5%;
-    left: 0px;
-    padding: 0 16px;
+    margin-top: -450px;
+    padding: 20px;
+    position: static;
     flex-direction: column;
     box-sizing: border-box;
   }
@@ -1076,7 +1139,13 @@
     margin-left: 0px;
   }
 
+  .input,
+  .input_img {
+    width: 100%;
+  }
+
   .main_process_cards {
+    gap: 30px;
     flex-direction: column;
   }
 
@@ -1084,7 +1153,6 @@
   .process_card1 {
     width: 100%;
     margin-right: 0px;
-    margin-bottom: 5px;
   }
 
   .process_card_img {
@@ -1092,14 +1160,20 @@
   }
 
   .process_card_text {
-    top: 1px;
-    left: 1px;
-    margin: 10px 0px;
+    margin-top: -170px;
+    position: static;
   }
 
   .main_reviews_cards {
+    gap: 50px;
     margin-left: 0px;
     flex-direction: column;
+  }
+
+  .reviews_card,
+  .reviews_card1 {
+    width: 100%;
+    padding-bottom: 20px;
   }
 
   .reviews_card_img {
@@ -1107,42 +1181,46 @@
   }
 
   .reviews_card_inf {
-    top: 1px;
-    left: 0px;
-    width: 100%;
-    margin: 20px 0px;
+    width: 50%;
+    margin-top: -400px;
+    margin-left: 90px;
+    position: static;
+    box-sizing: border-box;
   }
 
   .reviews_img {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
 
   .reviews_card_inf_p {
-    width: 250px;
-    height: 70px;
-    margin-bottom: 25px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
   }
 
   .main_request {
-    margin-top: -45px;
+    width: 100%;
+    height: auto;
+    margin: 50px 0px 60px 0px;
   }
 
   .request_fon {
-    width: 390px;
-    height: 520px;
-    border-radius: 32px;
+    width: 100%;
+    height: 650px;
+    border-radius: 30px;
   }
 
   .request_info {
     width: 100%;
-    padding: 0 16px;
+    margin-top: -620px;
+    padding: 20px;
+    position: static;
     flex-direction: column;
     box-sizing: border-box;
   }
 
   .request_order {
     width: 100%;
-    margin-top: 85px;
     margin-right: 0px;
   }
 
@@ -1150,36 +1228,75 @@
     display: none;
   }
 
+  .input_select {
+    width: 100%;
+  }
+
   .main_blog {
-    margin-top: -150px;
+    margin-top: 50px;
   }
 
   .blog_cards {
-    gap: 32px;
+    width: 100%;
+    gap: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
     flex-direction: column;
+  }
+
+  .blog_card {
+    width: 100%;
+    height: auto;
+    display: flex;
     align-items: center;
+    flex-direction: column;
+  }
+
+  .blog_card_img {
+    width: 280px;
+    height: 270px;
+    margin-bottom: -50px;
+    position: static;
+    z-index: 2;
+  }
+
+  .blog_card_inf {
+    width: 100%;
+    height: auto;
+    max-width: 320px;
+    padding: 90px 20px 30px 20px;
+    box-sizing: border-box;
+  }
+
+  .blog_card_p {
+    width: 100%;
+    margin-top: 0px;
   }
 
   .main_where {
-    margin-top: -220px;
-    margin-bottom: -40px;
+    width: 100%;
+    height: auto;
+    margin: 40px 0px;
   }
 
   .where_fon {
-    width: 390px;
-    height: 520px;
-    border-radius: 32px;
+    width: 100%;
+    height: 700px;
+    border-radius: 30px;
   }
 
   .where_inf {
-    margin-top: 70px;
-    text-align: center;
+    width: 100%;
+    margin-top: -680px;
+    padding: 20px;
+    position: static;
     flex-direction: column;
-    align-items: center;
+    box-sizing: border-box;
   }
 
   .where_inf_text {
-    margin-top: 40px;
+    width: 100%;
+    margin-top: 20px;
     margin-right: 0px;
   }
 
@@ -1187,57 +1304,70 @@
     display: none;
   }
 
+  .main_buy {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
   .buy_img {
     width: 100%;
-    height: 240px;
+    height: 300px;
+    object-fit: cover;
   }
 
   .buy_inf {
     width: 90%;
-    top: 10%;
-    left: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .footer {
-    margin-top: 55px;
-    margin-bottom: 0px;
+    width: 100%;
+    margin-top: 40px;
   }
 
   .footer_inf {
-    width: 70%;
-    margin-top: -70px;
+    width: 100%;
+    margin-top: 0px;
   }
 
   .footer_inf_fon1 {
-    width: 390px;
-    height: 630px;
-    gap: 16px;
-    text-align: center;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    padding: 30px 20px;
+    align-items: flex-start;
     flex-direction: column;
-    align-items: center;
   }
 
   .footer_inf_group {
+    width: 100%;
     height: auto;
-    margin-top: 20px;
-    margin-left: 80px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   .footer_inf_group2 {
+    width: 100%;
     height: auto;
-    margin-bottom: 20px;
-    margin-left: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .contact_inf_img {
+    display: flex;
+    gap: 15px;
   }
 
   .footer_inf_fon2 {
-    width: 390px;
-    height: 64px;
-    text-align: center;
-    align-items: center;
+    width: 100%;
+    padding: 21px 20px;
   }
 
   .footer_inf_group_p {
-    width: 280px;
-    align-items: center;
+    width: 100%;
+    padding-left: 0px;
   }
-}
+} 
